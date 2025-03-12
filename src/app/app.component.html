@@ -227,6 +227,25 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>MaSV</th>
+            <th>Tên</th>
+            <th>Ngành</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for(item of listStudents; track item.maSv) {
+            <tr>
+              <td>{{ item.maSv }}</td>
+              <td>{{ item.ten }}</td>
+              <td>{{ item.nganh }}</td>
+            </tr>
+          }
+        </tbody>
+      </table>
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">
