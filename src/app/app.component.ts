@@ -37,5 +37,5 @@ export class AppComponent { //khai báo biến/hàm sẽ sử dụng trong compo
     return this.count++;
   }
 
-  name: string = '';
+  name: string = 'thaivm2';
 }
