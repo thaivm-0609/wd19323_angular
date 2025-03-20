@@ -1,1 +1,29 @@
-<p>list works!</p>
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Mã Sv</th>
+                <th>Tên</th>
+                <th>Ngành</th>
+                <th>Điểm thi</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for(s of listStudents;track s.maSv) {
+                <tr>
+                    <td>{{ s.id }}</td>
+                    <td>{{ s.maSv }}</td>
+                    <td>{{ s.ten }}</td>
+                    <td>{{ s.nganh }}</td>
+                    <td>{{ s.thi }}</td>
+                    <td>
+                        <button class="btn btn-warning">Edit</button>
+                        <button (click)="onDelete(s.id)" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

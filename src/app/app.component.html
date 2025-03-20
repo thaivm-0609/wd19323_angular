@@ -227,7 +227,7 @@
       </svg>
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
-      <div>
+      <!-- <div>
         <label for="">Name</label>
         <input type="text" [(ngModel)]="name">
         <span>Hello {{name}}</span>
@@ -245,7 +245,7 @@
           </tr>
         </thead>
         <tbody>
-          <!-- @for(item of listStudents; track item.maSv) { -->
+          @for(item of listStudents; track item.maSv) {
             <tr *ngFor="let item of listStudents">
               <td>{{ item.maSv }}</td>
               <td>{{ item.ten }}</td>
@@ -256,9 +256,9 @@
                 <span *ngIf="item.thi < 5">Fail</span>
               </td>
             </tr>
-          <!-- } -->
+          }
         </tbody>
-      </table>
+      </table> -->
     </div>
     <div class="divider" role="separator" aria-label="Divider"></div>
     <div class="right-side">

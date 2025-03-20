@@ -6,7 +6,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 
 export const routes: Routes = [
     {
-        path: 'list',//đường dẫn ng dùng nhập trên URL
+        path: '',//đường dẫn ng dùng nhập trên URL
         component: ListComponent 
     },
     {

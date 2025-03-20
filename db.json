@@ -1,0 +1,11 @@
+{
+  "students": [
+    {
+      "id": 3,
+      "maSv": "PH123489",
+      "ten": "Nguyễn Thị C",
+      "nganh": "Marketing",
+      "thi": 8
+    }
+  ]
+}
