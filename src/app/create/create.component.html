@@ -1,1 +1,32 @@
-<p>create works!</p>
+<div class="container">
+    <!-- khai báo tên form: #tenForm="ngForm"
+        bắt sự kiện onSubmit: (ngSubmit)="tenHam(tenForm.value)"
+    -->
+    <form 
+        class="form-group"
+        #create="ngForm"
+        (ngSubmit)="onCreate(create.value)"
+    >
+        <div>
+            <label for="" class="form-label">Tên</label>
+            <input type="text" class="form-control" name="ten" ngModel>
+        </div>
+        <div>
+            <label for="" class="form-label">Mã SV</label>
+            <input type="text" class="form-control" name="maSv" ngModel>
+        </div>
+        <div>
+            <label for="" class="form-label">Ngành</label>
+            <select name="nganh" class="form-control" ngModel>
+                <option value="Web">Web</option>
+                <option value="Mobile">Mobile</option>
+                <option value="Design">Design</option>
+            </select>
+        </div>
+        <div>
+            <label for="" class="form-label">Điểm thi</label>
+            <input type="number" class="form-control" name="thi" ngModel>
+        </div>
+        <button type="submit" class="btn btn-success my-2">Thêm mới</button>
+    </form>
+</div>

@@ -1,11 +1,25 @@
 {
   "students": [
     {
-      "id": 3,
-      "maSv": "PH123489",
-      "ten": "Nguyễn Thị C",
-      "nganh": "Marketing",
-      "thi": 8
+      "ten": "Nguyễn Thị D",
+      "maSv": "PH123456789",
+      "nganh": "Web",
+      "thi": 3,
+      "id": 3
+    },
+    {
+      "ten": "thaivm233333",
+      "maSv": "PH111133333",
+      "nganh": "Design",
+      "thi": 5333333,
+      "id": 4
+    },
+    {
+      "ten": "Iphone 15 pro max222222",
+      "maSv": "PH222222222222",
+      "nganh": "Web",
+      "thi": 10222222222,
+      "id": 5
     }
   ]
 }

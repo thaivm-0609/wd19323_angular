@@ -14,6 +14,7 @@ export const routes: Routes = [
         component: CreateComponent
     },
     {
+        //khai báo params /:tenParam
         path: 'edit/:id',
         component: EditComponent
     },
