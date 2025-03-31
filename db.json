@@ -21,5 +21,12 @@
       "thi": 10222222222,
       "id": 5
     }
+  ],
+  "users": [
+    {
+      "email": "thaivm2@fe.edu.vn",
+      "password": "$2a$10$5aBm5qeQYkoj5osc1u1p..x1JQqN1Yx9xT.wd0Hfp/vKk3tb3SVhm",
+      "id": 1
+    }
   ]
 }
