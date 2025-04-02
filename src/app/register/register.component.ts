@@ -18,7 +18,7 @@ export class RegisterComponent {
   onRegister(data:any):void {
     this.auth.register(data).subscribe(res => {
       alert('Đăng ký thành công');
-      this.router.navigate(['']);
+      this.router.navigate(['/login']);
     })
   }
 }
